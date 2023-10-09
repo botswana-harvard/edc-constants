@@ -43,6 +43,7 @@ NORMAL = 'NORMAL'
 NOT_ADDITIONAL = False
 NOT_APPLICABLE = 'N/A'
 NOT_DONE = 'not_done'
+NOT_ESTIMATED = "not_estimated"
 NOT_EVALUATED = 'Not evaluated'
 NOT_SURE = 'not_sure'
 OFF_STUDY = 'off study'

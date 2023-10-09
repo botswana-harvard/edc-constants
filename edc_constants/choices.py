@@ -4,7 +4,7 @@ from .constants import (
     ALIVE, DEAD, DECLINED, DWTA, FEMALE, IND, MALE, NAIVE,
     NEG, NEVER, NO, NOT_APPLICABLE, OMANG, OTHER, POS, REFUSED, UNKNOWN, YES,
     MORNING, AFTERNOON, EVENING, ANYTIME, WEEKDAYS, WEEKENDS,
-    NOT_SURE, NORMAL, ABNORMAL, NOT_DONE)
+    NOT_SURE, NORMAL, ABNORMAL, NOT_DONE, NOT_ESTIMATED,)
 
 
 BLANK_CHOICE_DASH = [('', '---------')]
@@ -88,6 +88,14 @@ DATE_ESTIMATED = (
     ('D', 'Yes, estimated the Day'),
     ('MD', 'Yes, estimated Month and Day'),
     ('YMD', 'Yes, estimated Year, Month and Day'),
+)
+
+DATE_ESTIMATED_NA = (
+    (NOT_APPLICABLE, _("Not applicable")),
+    (NOT_ESTIMATED, _("No")),
+    ("D", _("Yes, estimated the Day")),
+    ("MD", _("Yes, estimated Month and Day")),
+    ("YMD", _("Yes, estimated Year, Month and Day")),
 )
 
 DEATH_RELATIONSIP_TO_STUDY = (
